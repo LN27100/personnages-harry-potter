@@ -23,6 +23,9 @@ a:hover {
 }
 
 body {
+  background-image: url(../public/images/backgroundHarry.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   display: flex;
   place-items: center;
@@ -31,8 +34,14 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4rem;
   line-height: 1.1;
+  color: #B8860B;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #DAA520;
 }
 
 button {
