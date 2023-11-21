@@ -14,10 +14,11 @@ body {
   min-height: 100vh;
 }
 
+
 h1 {
   font-family: 'HarryPotterFont', sans-serif;
   font-weight: lighter;
-  font-size: 4rem;
+  font-size: 5rem;
   color: #B8860B;
   background-color: rgba(184, 135, 68, 0.5);
   border-radius: 20px;
@@ -35,7 +36,7 @@ h1 {
 
 .logo-text {
   font-family: 'HarryPotterFont', sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,5 +46,6 @@ h1 {
   padding: 10px;
   border-radius: 100px;
   white-space: nowrap; /*faire en sorte que le texte soit sur une seule ligne */
-
 }
+
+
