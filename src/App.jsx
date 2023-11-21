@@ -27,7 +27,7 @@ function App() {
       <div className="card">
       <a href="https://react.dev" target="_blank" className="logo-container">
         <img src={chapeau} className="logo" alt="logo maisons" />
-          <p className="logo-text">Quelle sera ta maion !!</p>
+          <p className="logo-text">Quelle sera ta maison !!</p>
         </a>
 
       </div>
