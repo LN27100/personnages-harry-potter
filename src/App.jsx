@@ -8,9 +8,7 @@ import chapeau from '../public/images/chapeau.jpg';
 const LogoComponent = ({ image, text, apiUrl }) => {
   const navigate = useNavigate();
 
-  const handleLogoClick = async (event) => {
-    event.preventDefault(); // Empêche le rechargement de la page
-
+  const handleLogoClick = async () => {
     try {
       // Effectuez une requête vers l'API pour obtenir les données (personnages ou sortilèges)
       const response = await fetch(apiUrl);
@@ -25,11 +23,12 @@ const LogoComponent = ({ image, text, apiUrl }) => {
   };
 
   return (
-    <a href="#" className="logo-container" onClick={handleLogoClick}>
+    <div className="logo-container" onClick={handleLogoClick}>
       <img src={image} className="logo" alt={`logo ${text}`} />
       <p className="logo-text">{text}</p>
-    </a>
+    </div>
   );
+  
 };
 
 function App() {
