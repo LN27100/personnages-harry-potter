@@ -8,7 +8,9 @@ import chapeau from '../public/images/chapeau.jpg';
 const LogoComponent = ({ image, text, apiUrl }) => {
   const navigate = useNavigate();
 
-  const handleLogoClick = async () => {
+  const handleLogoClick = async (event) => {
+    event.preventDefault(); // Empêche le rechargement de la page
+
     try {
       // Effectuez une requête vers l'API pour obtenir les données (personnages ou sortilèges)
       const response = await fetch(apiUrl);
@@ -53,7 +55,7 @@ function App() {
         <LogoComponent
           image={chapeau}
           text="Quelle sera ta maison !!"
-          apiUrl="https://hp-api.onrender.com/api/characters/house/gryffindor"
+          apiUrl="https://hp-api.onrender.com/api/characters/house/:house"
         />
       </div>
     </>
