@@ -21,6 +21,10 @@ const LogoComponent = ({ image, text, apiUrl }) => {
       console.log('Données récupérées avec succès :', data);
 
       navigate('/liste-donnees', { state: { data } });
+      // Ouvre une nouvelle fenêtre avec les données
+      const newWindow = window.open('', '_blank');
+      newWindow.document.write(JSON.stringify(data));
+      
     } catch (error) {
       console.error('Erreur lors de la récupération des données :', error);
       // Gérez l'erreur (affichage d'un message d'erreur, etc.)
@@ -58,7 +62,7 @@ function App() {
         <LogoComponent
           image={chapeau}
           text="Quelle sera ta maison !!"
-          apiUrl="https://hp-api.onrender.com/api/characters/house/:house"
+          apiUrl="https://hp-api.onrender.com/api/characters/house/gryffindor"
         />
       </div>
     </div>
