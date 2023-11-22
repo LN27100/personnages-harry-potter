@@ -10,11 +10,16 @@ const LogoComponent = ({ image, text, apiUrl }) => {
 
   const handleLogoClick = async () => {
     try {
-      // Effectuez une requête vers l'API pour obtenir les données (personnages ou sortilèges)
       const response = await fetch(apiUrl);
+
+      if (!response.ok) {
+        throw new Error(`Erreur HTTP ! Statut : ${response.status}`);
+      }
+
       const data = await response.json();
 
-      // Redirigez l'utilisateur vers une nouvelle page avec les données
+      console.log('Données récupérées avec succès :', data);
+
       navigate('/liste-donnees', { state: { data } });
     } catch (error) {
       console.error('Erreur lors de la récupération des données :', error);
@@ -28,15 +33,14 @@ const LogoComponent = ({ image, text, apiUrl }) => {
       <p className="logo-text">{text}</p>
     </div>
   );
-  
 };
 
 function App() {
   return (
-    <>
-      <div>
-        <h1 className="texte-ombre">L'univers d'Harry Potter</h1>
+    <div>
+      <h1 className="texte-ombre">L'univers d'Harry Potter</h1>
 
+      <div>
         <LogoComponent
           image={logoPersonnages}
           text="Quel personnage serais-tu?"
@@ -45,7 +49,7 @@ function App() {
 
         <LogoComponent
           image={logoSortileges}
-          text="Trouves ton sortilèges de prédilections."
+          text="Trouves ton sortilège de prédilection."
           apiUrl="https://hp-api.onrender.com/api/spells"
         />
       </div>
@@ -57,7 +61,7 @@ function App() {
           apiUrl="https://hp-api.onrender.com/api/characters/house/:house"
         />
       </div>
-    </>
+    </div>
   );
 }
 
