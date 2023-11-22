@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ReactDOM from 'react-dom'; // Importez ReactDOM
+import { createRoot } from 'react-dom/client';  // Importez createRoot depuis "react-dom/client"
 import './App.css';
 import logoPersonnages from '../public/images/personnages.jpg';
 import logoSortileges from '../public/images/sortileges.jpg';
@@ -29,13 +29,12 @@ const Card = ({ data, type }) => {
       <div className="card">
         <h2>Nom: {data.name}</h2>
         <p>Nom: {data.description}</p>
-
       </div>
     );
   } else if (type === 'houses') {
     return (
       <div className="card">
-<img src={data.image} alt={data.name} />
+        <img src={data.image} alt={data.name} />
         <h2>Nom: {data.name}</h2>
         <h3>Acteur: {data.actor}</h3>
         <p>Maison: {data.house}</p>
@@ -45,7 +44,8 @@ const Card = ({ data, type }) => {
         <p>Couleur de cheveux: {data.hairColour}</p>
         <p>Genre: {data.gender}</p>
         <p>Patronus: {data.patronus}</p>
-        <p>Ascendance : {data.ancestry}</p>      </div>
+        <p>Ascendance : {data.ancestry}</p>
+      </div>
     );
   } else {
     return null; // Type non pris en charge
@@ -79,12 +79,16 @@ const LogoComponent = ({ image, text, apiUrl, dataType }) => {
   const handleLogoClick = () => {
     if (data) {
       const newWindow = window.open('', '_blank');
-      
+
+      const container = document.createElement('div');
+      const root = createRoot(container);  // Utilisez createRoot depuis "react-dom/client"
+
       const cards = data.map((item) => (
         <Card key={item.id} data={item} type={dataType} />
       ));
 
-      ReactDOM.render(<div>{cards}</div>, newWindow.document.body);
+      root.render(<div>{cards}</div>);
+      newWindow.document.body.appendChild(container);
     }
   };
 
