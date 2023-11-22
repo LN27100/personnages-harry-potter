@@ -49,3 +49,22 @@ h1 {
 }
 
 
+
+
+
+/* SCROLLBAR CUSTOMISEE */
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #906714;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 60px;
+  background-color: #e1b83e;
+}

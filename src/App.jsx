@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <div>
+        
         <h1 className="texte-ombre">L'univers d'Harry Potter</h1>
         <a href="https://vitejs.dev" target="_blank" className="logo-container">
           <img src={logoPersonnages} className="logo" alt="logo personnages" />
