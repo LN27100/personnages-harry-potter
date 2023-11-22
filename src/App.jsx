@@ -1,32 +1,63 @@
 import React from 'react';
-import { useState } from 'react';
-import './App.css'
-import logoPersonnages from '../public/images/personnages.jpg'
-import logoSortileges from '../public/images/sortileges.jpg'
-import chapeau from '../public/images/chapeau.jpg'
+import { useNavigate } from 'react-router-dom';
+import './App.css';
+import logoPersonnages from '../public/images/personnages.jpg';
+import logoSortileges from '../public/images/sortileges.jpg';
+import chapeau from '../public/images/chapeau.jpg';
+
+const LogoComponent = ({ image, text, apiUrl }) => {
+  const navigate = useNavigate();
+
+  const handleLogoClick = async () => {
+    try {
+      // Effectuez une requête vers l'API pour obtenir les données (personnages ou sortilèges)
+      const response = await fetch(apiUrl);
+      const data = await response.json();
+
+      // Redirigez l'utilisateur vers une nouvelle page avec les données
+      navigate('/liste-donnees', { state: { data } });
+    } catch (error) {
+      console.error('Erreur lors de la récupération des données :', error);
+      // Gérez l'erreur (affichage d'un message d'erreur, etc.)
+    }
+  };
+
+  return (
+    <a href="#" className="logo-container" onClick={handleLogoClick}>
+      <img src={image} className="logo" alt={`logo ${text}`} />
+      <p className="logo-text">{text}</p>
+    </a>
+  );
+};
+
 function App() {
   return (
     <>
       <div>
-        
         <h1 className="texte-ombre">L'univers d'Harry Potter</h1>
-        <a href="https://vitejs.dev" target="_blank" className="logo-container">
-          <img src={logoPersonnages} className="logo" alt="logo personnages" />
-          <p className="logo-text">Quel personnage serais-tu?</p>
-        </a>
-        <a href="https://react.dev" target="_blank" className="logo-container">
-          <img src={logoSortileges} className="logo" alt="logo sortilèges" />
-          <p className="logo-text">Trouves ton sortilèges de prédilections.</p>
-        </a>
-      </div>
-      <div className="card">
-      <a href="https://react.dev" target="_blank" className="logo-container">
-        <img src={chapeau} className="logo" alt="logo maisons" />
-          <p className="logo-text">Quelle sera ta maison !!</p>
-        </a>
 
+        <LogoComponent
+          image={logoPersonnages}
+          text="Quel personnage serais-tu?"
+          apiUrl="https://hp-api.onrender.com/api/characters"
+        />
+
+        <LogoComponent
+          image={logoSortileges}
+          text="Trouves ton sortilèges de prédilections."
+          apiUrl="https://hp-api.onrender.com/api/spells"
+        />
+      </div>
+
+      <div className="card">
+        <LogoComponent
+          image={chapeau}
+          text="Quelle sera ta maison !!"
+          apiUrl="https://hp-api.onrender.com/api/characters/house/gryffindor"
+        />
       </div>
     </>
   );
 }
+
 export default App;
