@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Characters from "./pages/Characters";
 import Spells from "./pages/sortileges";
 import Houses from './pages/maisons';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -19,32 +20,31 @@ function App() {
                   src="../public/images/personnages.jpg"
                   alt="logo personnages"
                 />
-                <span id="pointeur"
-                  className="logo-text">Quel est votre personnage favori ?</span> {/* Texte à superposer */}
+                <span id="souris" className="logo-text">Quel est votre personnage favori ?</span>
               </Link>
             </li>
             <li>
               <Link to="/spells" className="logo-link">
                 <img
                   className="logo"
-                  id="pointeur"
+                  id="pointe"
                   src="../public/images/sortileges.jpg"
                   alt="logo sortilèges"
                 />
-                <span className="logo-text" id="pointeur"
-                >Connaissez-vous les sortilèges ?</span> {/* Texte à superposer */}
+                <span className="logo-text" id="curs"
+                >Connaissez-vous les sortilèges ?</span>
               </Link>
             </li>
             <li>
               <Link to="/houses" className="logo-link">
                 <img
                   className="logo"
-                  id="pointeur"
+                  id="curseur"
                   src="../public/images/chapeau.jpg"
                   alt="logo maisons"
                 />
-                <span className="logo-text" id="pointeur"
-                >Qui fais parti de la maison Gryffondor ?</span> {/* Texte à superposer */}
+                <span className="logo-text" id="cursor"
+                >Qui fais parti de la maison Gryffondor ?</span>
               </Link>
             </li>
           </ul>

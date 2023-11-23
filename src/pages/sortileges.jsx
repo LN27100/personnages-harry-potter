@@ -34,7 +34,9 @@ function Spells() {
 
   return (
     <div>
-      <h2>Sortilèges</h2>
+      <div className="title-container">
+        <h4>Les sortilèges</h4>
+      </div>
 
       {groupedSpells.map((group, index) => (
         <div key={index} className="card-group">

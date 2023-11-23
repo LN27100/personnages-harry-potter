@@ -34,7 +34,10 @@ function Houses() {
 
   return (
     <div>
-      <h2>Maison Gryffindor</h2>
+
+      <div className="title-container">
+        <h4>Maison Gryffindor</h4>
+      </div>
 
       {groupedHouses.map((group, index) => (
         <div key={index} className="card-group">

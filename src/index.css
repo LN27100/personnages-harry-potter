@@ -13,7 +13,26 @@ body {
 
 #pointeur {
   cursor: url(/public/images/baguette.png), auto;
+}
 
+#pointe {
+  cursor: url(/public/images/baguette.png), auto;
+}
+
+#souris {
+  cursor: url(/public/images/baguette.png), auto;
+}
+
+#cursor {
+  cursor: url(/public/images/baguette.png), auto;
+}
+
+#curseur {
+  cursor: url(/public/images/baguette.png), auto;
+}
+
+#curs {
+  cursor: url(/public/images/baguette.png), auto;
 }
 
 ul {

@@ -34,7 +34,10 @@ function Characters() {
 
   return (
     <div>
-      <h2>Characters</h2>
+
+      <div className="title-container">
+        <h4>Les personnages</h4>
+      </div>
 
       {groupedCharacters.map((group, index) => (
         <div key={index} className="card-group">
