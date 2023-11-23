@@ -69,7 +69,7 @@ h1 {
   padding: 20px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #b46719;
+  background-color: rgba(180, 103, 25, 0.5);
 }
 
 .cards img {
@@ -97,4 +97,5 @@ h1 {
 .cards p {
   margin-bottom: 5px;
   color: white;
+  font-size: 1.5rem;
 }

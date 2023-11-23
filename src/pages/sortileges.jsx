@@ -42,7 +42,7 @@ function Spells() {
         <div key={index} className="card-group">
           {group.map((data) => (
             <div key={data.name} className="cards">
-              <h3>Nom: {data.name}</h3>
+              <h6>Sortilège {data.name}</h6>
               <p>Description : {data.description}</p>
             </div>
           ))}

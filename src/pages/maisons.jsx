@@ -44,7 +44,7 @@ function Houses() {
           {group.map((data) => (
             <div key={data.name} className="cards">
               <img src={data.image} alt={data.name} />
-              <h2>Nom: {data.name}</h2>
+              <h2>{data.name}</h2>
               <h3>Acteur: {data.actor}</h3>
               <p>Maison: {data.house}</p>
               <p> Espèces: {data.species}</p>
