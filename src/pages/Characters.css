@@ -1,0 +1,54 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 23rem;
+  padding: 1.5rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #daa520);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #daa520);
+}
+
+.card {
+  padding: 2em;
+}
+
+/* Style pour les cartes */
+.cards {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.cards img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cards h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.cards h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.cards p {
+  margin-bottom: 5px;
+  color: #777;
+}

@@ -1,6 +1,5 @@
 // Import des modules nécessaires depuis React et React Router DOM
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';  
 import './App.css';  
 import logoPersonnages from '../public/images/personnages.jpg';  
