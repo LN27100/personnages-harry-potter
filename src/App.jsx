@@ -1,11 +1,12 @@
 // Import des modules nécessaires depuis React et React Router DOM
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createRoot } from 'react-dom/client';  // Importez createRoot depuis "react-dom/client"
-import './App.css';  // Import du fichier de styles
-import logoPersonnages from '../public/images/personnages.jpg';  // Import des images
+import { createRoot } from 'react-dom/client';  
+import './App.css';  
+import logoPersonnages from '../public/images/personnages.jpg';  
 import logoSortileges from '../public/images/sortileges.jpg';
 import chapeau from '../public/images/chapeau.jpg';
+
 
 // Composant représentant une carte générique
 const Card = ({ data, type }) => {
@@ -13,7 +14,7 @@ const Card = ({ data, type }) => {
   if (type === 'characters') {
     return (
       // Carte pour les personnages
-      <div className="card">
+      <div className="cards">
         <img src={data.image} alt={data.name} />
         <h2>Nom: {data.name}</h2>
         <h3>Acteur: {data.actor}</h3>
