@@ -19,6 +19,10 @@ body {
 
 }
 
+ul {
+  list-style-type: none;
+}
+
 h1 {
   font-family: 'HarryPotterFont', sans-serif;
   font-weight: lighter;
@@ -26,6 +30,7 @@ h1 {
   color: #B8860B;
   background-color: rgba(184, 135, 68, 0.5);
   border-radius: 20px;
+  padding: 1rem 5rem 1rem 5rem;
 }
 
 

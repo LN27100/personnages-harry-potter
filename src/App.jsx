@@ -9,16 +9,17 @@ function App() {
     <Router>
       <div>
         <nav>
+          <h1>L'univers Harry Potter</h1>
           <ul>
             <li>
-              <Link to="/characters"><img class="logo" src="../public/images/personnages.jpg" alt="logo personnages" />
+              <Link to="/characters"><img class="logo" id="pointeur" src="../public/images/personnages.jpg" alt="logo personnages" />
               </Link>
             </li>
             <li>
-              <Link to="/spells"><img class="logo" src="../public/images/sortileges.jpg" alt="logo personnages" /></Link>
+              <Link to="/spells"><img class="logo" id="pointeur" src="../public/images/sortileges.jpg" alt="logo personnages" /></Link>
             </li>
             <li>
-              <Link to="/houses"><img class="logo" src="../public/images/chapeau.jpg" alt="logo personnages" /></Link>
+              <Link to="/houses"><img class="logo" id="pointeur" src="../public/images/chapeau.jpg" alt="logo personnages" /></Link>
             </li>
           </ul>
         </nav>
