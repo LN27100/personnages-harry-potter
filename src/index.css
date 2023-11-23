@@ -7,11 +7,8 @@ body {
   background-image: url(../public/images/backgroundHarry.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 #pointeur {
@@ -21,18 +18,42 @@ body {
 
 ul {
   list-style-type: none;
+  display: flex;
 }
 
 h1 {
   font-family: 'HarryPotterFont', sans-serif;
   font-weight: lighter;
-  font-size: 5rem;
-  color: #B8860B;
+  font-size: 6rem;
+  color: #d4b126;
   background-color: rgba(184, 135, 68, 0.5);
   border-radius: 20px;
   padding: 1rem 5rem 1rem 5rem;
+  margin-top: 1rem;
 }
 
+.logo-link {
+  position: relative;
+  display: inline-block;
+  margin: 5rem;
+}
+
+.logo-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem; 
+  font-weight: lighter; 
+  font-family: 'HarryPotterFont', sans-serif;
+  color:#c59116;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+  background: rgba(76, 13, 7, 0.4);
+  width: 20rem;
+  padding: 0.3rem;
+  border-radius: 30px;
+  z-index: 1; 
+}
 
 .texte-ombre {
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
@@ -42,23 +63,6 @@ h1 {
   position: relative;
   display: inline-block; 
 }
-
-.logo-text {
-  font-family: 'HarryPotterFont', sans-serif;
-  font-size: 1.9rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:#F0DA85;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
-  background: rgba(27, 26, 26, 0.5);
-  padding: 10px;
-  border-radius: 100px;
-  white-space: nowrap; /*faire en sorte que le texte soit sur une seule ligne */
-}
-
-
 
 
 

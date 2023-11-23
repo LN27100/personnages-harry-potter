@@ -7,19 +7,39 @@ import Houses from './pages/maisons';
 function App() {
   return (
     <Router>
-      <div>
+      <div style={{ position: 'relative' }}> {/* Ajout du style position: relative */}
         <nav>
           <h1>L'univers Harry Potter</h1>
           <ul>
             <li>
-              <Link to="/characters"><img class="logo" id="pointeur" src="../public/images/personnages.jpg" alt="logo personnages" />
+              <Link to="/characters" className="logo-link">
+                <img
+                  className="logo"
+                  src="../public/images/personnages.jpg"
+                  alt="logo personnages"
+                />
+                <span className="logo-text">Quel est votre personnage favori ?</span> {/* Texte à superposer */}
               </Link>
             </li>
             <li>
-              <Link to="/spells"><img class="logo" id="pointeur" src="../public/images/sortileges.jpg" alt="logo personnages" /></Link>
+              <Link to="/spells" className="logo-link">
+                <img
+                  className="logo"
+                  src="../public/images/sortileges.jpg"
+                  alt="logo sortilèges"
+                />
+                <span className="logo-text">Connaissez-vous les sortilèges ?</span> {/* Texte à superposer */}
+              </Link>
             </li>
             <li>
-              <Link to="/houses"><img class="logo" id="pointeur" src="../public/images/chapeau.jpg" alt="logo personnages" /></Link>
+              <Link to="/houses" className="logo-link">
+                <img
+                  className="logo"
+                  src="../public/images/chapeau.jpg"
+                  alt="logo maisons"
+                />
+                <span className="logo-text">Qui fais parti de la maison Gryffondor ?</span> {/* Texte à superposer */}
+              </Link>
             </li>
           </ul>
         </nav>
@@ -28,8 +48,6 @@ function App() {
           <Route path="/characters" element={<Characters />} />
           <Route path="/spells" element={<Spells />} />
           <Route path="/houses" element={<Houses />} />
-
-
         </Routes>
       </div>
     </Router>
