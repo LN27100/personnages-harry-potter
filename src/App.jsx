@@ -1,16 +1,29 @@
-// import React from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Route, Link, Routes, useNavigate } from "react-router-dom";
 import Characters from "./pages/Characters";
-import Spells from "./pages/sortileges";
-import Houses from './pages/maisons';
-import HomePage from './pages/HomePage';
+import Spells from "./pages/Sortileges";
+import Houses from './pages/Maisons';
 
 function App() {
   return (
     <Router>
-      <div style={{ position: 'relative' }}> {/* Ajout du style position: relative */}
-        <nav>
-          <h1>L'univers Harry Potter</h1>
+      <Navigation />
+      <Routes>
+        <Route path="/characters" element={<Characters />} />
+        <Route path="/spells" element={<Spells />} />
+        <Route path="/houses" element={<Houses />} />
+      </Routes>
+    </Router>
+  );
+}
+
+function Navigation() {
+  const navigate = useNavigate(); // Utilisation de useNavigate pour la navigation
+
+  return (
+    <div style={{ position: 'relative' }}>
+      <nav>
+        <h1>L'univers Harry Potter</h1>
           <ul>
             <li>
               <Link to="/characters" className="logo-link">
@@ -47,16 +60,14 @@ function App() {
                 >Qui fais parti de la maison Gryffondor ?</span>
               </Link>
             </li>
+            <li>
+            {/* Ajout du bouton de retour */}
+            <button class="buttonReturn" onClick={() => navigate(-1)}>Retour</button>
+          </li>
           </ul>
-        </nav>
 
-        <Routes>
-          <Route path="/characters" element={<Characters />} />
-          <Route path="/spells" element={<Spells />} />
-          <Route path="/houses" element={<Houses />} />
-        </Routes>
+        </nav>
       </div>
-    </Router>
   );
 }
 
