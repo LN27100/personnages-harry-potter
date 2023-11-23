@@ -22,6 +22,9 @@ function Characters() {
     fetchCharacters();
   }, []);
 
+  // Image par défaut
+  const defaultImage = "./public/images/carte-du-maraudeur.jpg";
+
   // Divise les personnages en groupes de trois
   const groupedCharacters = characters.reduce((acc, character, index) => {
     const groupIndex = Math.floor(index / 3);
@@ -34,7 +37,6 @@ function Characters() {
 
   return (
     <div>
-
       <div className="title-container">
         <h4>Les personnages</h4>
       </div>
@@ -43,17 +45,18 @@ function Characters() {
         <div key={index} className="card-group">
           {group.map((data) => (
             <div key={data.name} className="cards">
-              <img src={data.image} alt={data.name} />
+              <img src={data.image || defaultImage} alt={data.name} />
               <h2>{data.name}</h2>
-            <h3>Acteur: {data.actor}</h3>
-            <p>Maison: {data.house}</p>
-            <p> Espèces: {data.species}</p>
-            <p>Date d'anniversaire: {data.dateOfBirth}</p>
-            <p>Couleur des yeux: {data.eyeColour}</p>
-            <p>Couleur de cheveux: {data.hairColour}</p>
-            <p>Genre: {data.gender}</p>
-            <p>Patronus: {data.patronus}</p>
-            <p>Ascendance : {data.ancestry}</p>            </div>
+              <h3>Acteur: {data.actor}</h3>
+              <p>Maison: {data.house}</p>
+              <p> Espèces: {data.species}</p>
+              <p>Date d'anniversaire: {data.dateOfBirth}</p>
+              <p>Couleur des yeux: {data.eyeColour}</p>
+              <p>Couleur de cheveux: {data.hairColour}</p>
+              <p>Genre: {data.gender}</p>
+              <p>Patronus: {data.patronus}</p>
+              <p>Ascendance : {data.ancestry}</p>
+            </div>
           ))}
         </div>
       ))}
