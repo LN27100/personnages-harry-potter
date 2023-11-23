@@ -103,7 +103,7 @@ const LogoComponent = ({ image, text, apiUrl, dataType }) => {
   // Rendu du composant du logo cliquable
   return (
     <div className="logo-container" onClick={handleLogoClick}>
-      <img src={image} className="logo" alt={`logo ${text}`} />
+      <img src={image} id="pointeur" className="logo" alt={`logo ${text}`} />
       <p className="logo-text">{text}</p>
     </div>
   );
