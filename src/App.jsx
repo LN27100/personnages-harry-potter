@@ -1,150 +1,38 @@
-// Import des modules nécessaires depuis React et React Router DOM
-import React, { useState, useEffect } from 'react';
-import { createRoot } from 'react-dom/client';  
-import './App.css';  
-import logoPersonnages from '../public/images/personnages.jpg';  
-import logoSortileges from '../public/images/sortileges.jpg';
-import chapeau from '../public/images/chapeau.jpg';
+// import React from 'react';
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import Characters from "./pages/Characters";
+import Spells from "./pages/sortileges";
+import Houses from './pages/maisons';
 
-
-// Composant représentant une carte générique
-const Card = ({ data, type }) => {
-  // Condition pour déterminer le type de carte à afficher en fonction du paramètre 'type'
-  if (type === 'characters') {
-    return (
-      // Carte pour les personnages
-      <div className="cards">
-        <img src={data.image} alt={data.name} />
-        <h2>Nom: {data.name}</h2>
-        <h3>Acteur: {data.actor}</h3>
-        <p>Maison: {data.house}</p>
-        <p> Espèces: {data.species}</p>
-        <p>Date d'anniversaire: {data.dateOfBirth}</p>
-        <p>Couleur des yeux: {data.eyeColour}</p>
-        <p>Couleur de cheveux: {data.hairColour}</p>
-        <p>Genre: {data.gender}</p>
-        <p>Patronus: {data.patronus}</p>
-        <p>Ascendance : {data.ancestry}</p>
-      </div>
-    );
-  } else if (type === 'spells') {
-    return (
-      // Carte pour les sortilèges
-      <div className="cards">
-        <h2>Nom: {data.name}</h2>
-        <p>Nom: {data.description}</p>
-      </div>
-    );
-  } else if (type === 'houses') {
-    return (
-      // Carte pour les maisons
-      <div className="cards">
-        <img src={data.image} alt={data.name} />
-        <h2>Nom: {data.name}</h2>
-        <h3>Acteur: {data.actor}</h3>
-        <p>Maison: {data.house}</p>
-        <p> Espèces: {data.species}</p>
-        <p>Date d'anniversaire: {data.dateOfBirth}</p>
-        <p>Couleur des yeux: {data.eyeColour}</p>
-        <p>Couleur de cheveux: {data.hairColour}</p>
-        <p>Genre: {data.gender}</p>
-        <p>Patronus: {data.patronus}</p>
-        <p>Ascendance : {data.ancestry}</p>
-      </div>
-    );
-  } else {
-    return null; // Type non pris en charge
-  }
-};
-
-// Composant réutilisable représentant un logo cliquable
-const LogoComponent = ({ image, text, apiUrl, dataType }) => {
-  const [data, setData] = useState(null);
-
-  // Effet pour récupérer les données depuis l'API
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(apiUrl);
-
-        if (!response.ok) {
-          throw new Error(`Erreur HTTP ! Statut : ${response.status}`);
-        }
-
-        const fetchedData = await response.json();
-        setData(fetchedData);
-      } catch (error) {
-        console.error('Erreur lors de la récupération des données :', error.message);
-      }
-    };
-
-    fetchData();
-  }, [apiUrl]);
-
-  // Fonction gérant le clic sur le logo
-  const handleLogoClick = () => {
-    if (data) {
-      const newWindow = window.open('', '_blank');
-
-      const container = document.createElement('div');
-      const root = createRoot(container);  // Utilisez createRoot depuis "react-dom/client"
-
-      // Crée des cartes à partir des données et les rend dans la fenêtre nouvellement ouverte
-      const cards = data.map((item) => (
-        <Card key={item.id} data={item} type={dataType} />
-      ));
-
-      root.render(<div>{cards}</div>);
-      newWindow.document.body.appendChild(container);
-    }
-  };
-
-  // Rendu du composant du logo cliquable
-  return (
-    <div className="logo-container" onClick={handleLogoClick}>
-      <img src={image} id="pointeur" className="logo" alt={`logo ${text}`} />
-      <p className="logo-text">{text}</p>
-    </div>
-  );
-};
-
-// Composant principal représentant l'application
 function App() {
-  // Rendu du composant principal de l'application
   return (
-    <div>
-      <h1 className="texte-ombre">L'univers d'Harry Potter</h1>
-
+    <Router>
       <div>
-        {/* Premier logo cliquable */}
-        <LogoComponent
-          image={logoPersonnages}
-          text="Quel personnage serais-tu?"
-          apiUrl="https://hp-api.onrender.com/api/characters"
-          dataType="characters"
-        />
+        <nav>
+          <ul>
+            <li>
+              <Link to="/characters"><img class="logo" src="../public/images/personnages.jpg" alt="logo personnages" />
+              </Link>
+            </li>
+            <li>
+              <Link to="/spells"><img class="logo" src="../public/images/sortileges.jpg" alt="logo personnages" /></Link>
+            </li>
+            <li>
+              <Link to="/houses"><img class="logo" src="../public/images/chapeau.jpg" alt="logo personnages" /></Link>
+            </li>
+          </ul>
+        </nav>
 
-        {/* Deuxième logo cliquable */}
-        <LogoComponent
-          image={logoSortileges}
-          text="Trouves ton sortilège de prédilection."
-          apiUrl="https://hp-api.onrender.com/api/spells"
-          dataType="spells"
-        />
-      </div>
+        <Routes>
+          <Route path="/characters" element={<Characters />} />
+          <Route path="/spells" element={<Spells />} />
+          <Route path="/houses" element={<Houses />} />
 
-      <div className="card">
-        {/* Troisième logo cliquable */}
-        <LogoComponent
-          image={chapeau}
-          text="Quelle sera ta maison !!"
-          apiUrl="https://hp-api.onrender.com/api/characters/house/gryffindor"
-          dataType="houses"
-        />
+
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
-// Export du composant principal pour être utilisé ailleurs
 export default App;
