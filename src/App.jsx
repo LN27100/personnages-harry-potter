@@ -31,7 +31,7 @@ const Card = ({ data, type }) => {
   } else if (type === 'spells') {
     return (
       // Carte pour les sortilèges
-      <div className="card">
+      <div className="cards">
         <h2>Nom: {data.name}</h2>
         <p>Nom: {data.description}</p>
       </div>
@@ -39,7 +39,7 @@ const Card = ({ data, type }) => {
   } else if (type === 'houses') {
     return (
       // Carte pour les maisons
-      <div className="card">
+      <div className="cards">
         <img src={data.image} alt={data.name} />
         <h2>Nom: {data.name}</h2>
         <h3>Acteur: {data.actor}</h3>
@@ -60,7 +60,6 @@ const Card = ({ data, type }) => {
 
 // Composant réutilisable représentant un logo cliquable
 const LogoComponent = ({ image, text, apiUrl, dataType }) => {
-  const navigate = useNavigate();
   const [data, setData] = useState(null);
 
   // Effet pour récupérer les données depuis l'API
