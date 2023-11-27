@@ -63,6 +63,8 @@ h1 {
 
 /* Style pour les cartes */
 .cards {
+  
+  cursor: url(/public/images/baguette.png), auto;
   width: 30rem;
   border: 1px solid #daa520;
   border-radius: 8px;
@@ -82,24 +84,25 @@ background-size: cover;}
 .cards h2 {
   font-size: 2rem;
   margin-bottom: 5px;
-  color: #efb112;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+  color: #814215;
+  text-shadow: 6px 6px 10px rgba(0, 0, 0, 1);
   font-family: 'HarryPotterFont';
   font-weight: lighter;
 }
 
+
 .cards h3 {
   font-size: 1.2rem;
   margin-bottom: 5px;
-  color: white;
+  color: #8B4513;
 }
 
 .cards p {
   margin-bottom: 5px;
-  color: white;
+  color: #8B4513;
   font-size: 1.5rem;
 }
 
 #root > div > div > div > img {
-  border: solid 3px #8B4513;
+  border: solid 5px #8B4513;
 }
