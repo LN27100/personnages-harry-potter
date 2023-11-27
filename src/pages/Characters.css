@@ -69,8 +69,8 @@ h1 {
   padding: 20px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: rgba(180, 103, 25, 0.5);
-}
+background-image: url(/public/images/backPapyrus.jpg);
+background-size: cover;}
 
 .cards img {
   width: 17rem;
@@ -98,4 +98,8 @@ h1 {
   margin-bottom: 5px;
   color: white;
   font-size: 1.5rem;
+}
+
+#root > div > div > div > img {
+  border: solid 3px #8B4513;
 }
