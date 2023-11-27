@@ -24,6 +24,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
 .title-container h4 {
   text-align: center;
   font-family: 'HarryPotterFont', sans-serif;
@@ -54,7 +55,7 @@ h1 {
 .card-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
 
 .card {
@@ -63,16 +64,16 @@ h1 {
 
 /* Style pour les cartes */
 .cards {
-  
   cursor: url(/public/images/baguette.png), auto;
   width: 30rem;
   border: 1px solid #daa520;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-background-image: url(/public/images/backPapyrus.jpg);
-background-size: cover;}
+  box-shadow: 2px 4px 8px rgba(246, 245, 245, 0.8);
+  background-image: url(/public/images/backPapyrus.jpg);
+  background-size: cover;
+}
 
 .cards img {
   width: 17rem;
@@ -92,7 +93,7 @@ background-size: cover;}
 
 
 .cards h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 5px;
   color: #8B4513;
 }
@@ -100,9 +101,9 @@ background-size: cover;}
 .cards p {
   margin-bottom: 5px;
   color: #8B4513;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-#root > div > div > div > img {
-  border: solid 5px #8B4513;
+#root>div>div>div>img {
+  border: solid 6px #8B4513;
 }
