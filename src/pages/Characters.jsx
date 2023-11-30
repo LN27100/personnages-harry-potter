@@ -1,31 +1,18 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import charactersData from "../data/characters.json"; // Importez vos données de personnages JSON
+
 import "./Characters.css";
 
 function Characters() {
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
-    const fetchCharacters = async () => {
-      try {
-        const response = await fetch("https://hp-api.onrender.com/api/characters");
-        if (!response.ok) {
-          throw new Error(`Erreur HTTP ! Statut : ${response.status}`);
-        }
-
-        const fetchedData = await response.json();
-        setCharacters(fetchedData);
-      } catch (error) {
-        console.error("Error fetching characters:", error);
-      }
-    };
-
-    fetchCharacters();
+    // Mettre à jour l'état avec les données importées
+    setCharacters(charactersData);
   }, []);
 
-  // Image par défaut
   const defaultImage = "./public/images/carte-du-maraudeur.jpg";
 
-  // Divise les personnages en groupes de trois
   const groupedCharacters = characters.reduce((acc, character, index) => {
     const groupIndex = Math.floor(index / 3);
     if (!acc[groupIndex]) {

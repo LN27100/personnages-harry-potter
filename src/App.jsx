@@ -57,7 +57,7 @@ function Navigation() {
                   alt="logo maisons"
                 />
                 <span className="logo-text" id="cursor"
-                >Qui fais parti de la maison Gryffondor ?</span>
+                >Qui fait parti de la maison Gryffondor ?</span>
               </Link>
             </li>
             <li>
