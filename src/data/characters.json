@@ -1499,7 +1499,7 @@
       "Shefali Chowdhury"
     ],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/ParvatiPatil.jpg"
   },
   {
     "id": "69c18f6a-cd97-4218-9f2f-740393e6eb1f",
@@ -1527,7 +1527,7 @@
       "Afshan Azad"
     ],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/PadmaPatil.png"
   },
   {
     "id": "1fab149b-52b1-4ffe-be52-4eda25d98f5d",
@@ -1553,7 +1553,7 @@
     "actor": "Louis Cordice",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/BlaiseZabini.jpg"
   },
   {
     "id": "11b5ca88-64ad-41a4-9f36-317b66c290af",
@@ -1583,7 +1583,7 @@
     "actor": "John Cleese",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/NearlyHeadlessNick.jpg"
   },
   {
     "id": "9a33fe44-b950-4877-a0cb-902a52c72e8b",
@@ -1609,7 +1609,7 @@
     "actor": "Terence Bayler",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/bloody-baron.jpg"
   },
   {
     "id": "8392b326-31fd-43de-ad5c-0cfcf81b82ee",
@@ -1637,7 +1637,7 @@
       "Dawn French"
     ],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/FatLady.jpg"
   },
   {
     "id": "e8694719-a975-48fb-9523-f4cade1c38aa",
@@ -1665,7 +1665,7 @@
     "actor": "Miriam Margolyes",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/PomonaSprout.png"
   },
   {
     "id": "a61e0783-7914-4f8d-a800-c409c06315cf",
@@ -1693,7 +1693,7 @@
     "actor": "Warwick Davis",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/FiliusFlitwick.jpg"
   },
   {
     "id": "0a81c4f9-b80d-45a7-a4fd-9191453815a1",
@@ -1721,7 +1721,7 @@
     "actor": "Zoë Wanamaker",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MadamHooch.jpeg"
   },
   {
     "id": "09396e81-d317-499f-b330-25b90ba17d20",
@@ -1747,7 +1747,7 @@
     "actor": "Sean Biggerstaff",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/OliverWood.jpg"
   },
   {
     "id": "b634f0a1-7b48-49b6-b039-27f947ee76fd",
@@ -1775,7 +1775,7 @@
       "Tiana Benjamin"
     ],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/AngelinaJohnson.jpg"
   },
   {
     "id": "0e42ecbe-27b2-4940-9b03-00182a92c415",
@@ -1801,7 +1801,7 @@
     "actor": "Jamie Yeates",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MarcusFlint.jpg"
   },
   {
     "id": "b78e6677-8bb4-4eb7-97cb-2f86677e27ea",
@@ -1827,7 +1827,7 @@
     "actor": "Scot Fearn",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/AdrianPucey.jpg"
   },
   {
     "id": "9ac09267-92ea-444a-a395-28f3b0f6fe6f",
@@ -1853,7 +1853,7 @@
     "actor": "Will Theakston",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/TerrenceHiggs.jpg"
   },
   {
     "id": "40e0acaa-30cd-4923-8408-9a96a484e892",
@@ -1879,7 +1879,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/Fluffy.jpg"
   },
   {
     "id": "b93b8e74-c283-4547-8a69-83ee51657f13",
@@ -1905,7 +1905,7 @@
     "actor": "Brontis Jodorowsky",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/NicolasFlamel.jpg"
   },
   {
     "id": "f94e870e-2c3b-4e17-adea-088660b6de78",
@@ -1931,7 +1931,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/Ronan.png"
   },
   {
     "id": "484d89aa-5d22-4d4d-9e07-4913cf8d4d20",
@@ -1959,7 +1959,7 @@
       "Nuno Silva"
     ],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/Bane.jpg"
   },
   {
     "id": "4c1adea5-3421-49a9-8e3e-a3ff0fe7ce60",
@@ -1985,7 +1985,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/BertieBott.jpg"
   },
   {
     "id": "17bd1ab9-19bc-4796-8865-53e75e3b488d",
@@ -2013,7 +2013,7 @@
     "actor": "Andy Linden",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MundungusFletcher.png"
   },
   {
     "id": "c9804c5b-943b-4710-8f95-0c3b40141007",
@@ -2043,7 +2043,7 @@
       "Ian Kelly"
     ],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MrGranger.png"
   },
   {
     "id": "895e355a-c017-4eba-bc72-dda0699c0b96",
@@ -2073,7 +2073,7 @@
       "Michelle Fairley"
     ],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MrsGranger.png"
   },
   {
     "id": "c0f33c97-d01d-42ed-ae40-1a525f75bb01",
@@ -2099,7 +2099,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/DrFilibuster.png"
   },
   {
     "id": "8e557e86-28d5-433f-8ac1-d2cecfeb8fb7",
@@ -2125,7 +2125,7 @@
     "actor": "Hugh Mitchell",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/ColinCreevey.jpg"
   },
   {
     "id": "9969f803-6835-4871-80b3-7bb975c1ec06",
@@ -2153,7 +2153,7 @@
     "actor": "Shirley Henderson",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MoaningMyrtle.png"
   },
   {
     "id": "834d5f9b-cdd8-48ee-9efa-5e155422f6c2",
@@ -2179,7 +2179,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/GodricGryffindor.png"
   },
   {
     "id": "a7c7c44d-07e4-4257-860e-375f47338cb2",
@@ -2205,7 +2205,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/HelgaHufflepuff.png"
   },
   {
     "id": "20d331c9-cd3e-4dde-a480-6cc05cd26db7",
@@ -2231,7 +2231,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/SalazarSerpentar.png"
   },
   {
     "id": "cdec9b95-c7a5-4623-ad12-6fa76d168588",
@@ -2259,7 +2259,7 @@
     "actor": "Sally Mortemore",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/irmaPince.png"
   },
   {
     "id": "3ba61708-c5a2-4691-8c7a-9c0865575dba",
@@ -2287,7 +2287,7 @@
     "actor": "Robert Hardy",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/CorneliusFudge.png"
   },
   {
     "id": "3f0fc32c-744b-4351-8542-58ed267e059b",
@@ -2315,7 +2315,7 @@
     "actor": "Lee Ingleby",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/StanleyShunpike.png"
   },
   {
     "id": "a62905eb-4965-44c7-baf0-0d8a2486f5b0",
@@ -2343,7 +2343,7 @@
     "actor": "Jimmy Gardner",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/ErnestPrang.png"
   },
   {
     "id": "c7121c73-1fce-4343-b823-a67f4ecfdef2",
@@ -2369,7 +2369,7 @@
     "actor": "Paul Whitehouse",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/SirCadogan.png"
   },
   {
     "id": "fa4f7f3a-947b-4bc1-bab2-c7a19c7c2c30",
@@ -2398,7 +2398,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/Buckbeak.png"
   },
   {
     "id": "1b6c8547-294a-40c0-892b-63a9511ca7d7",
@@ -2430,7 +2430,7 @@
       "Charles Hughes"
     ],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/peterPettigrow.png"
   },
   {
     "id": "70d665a5-35c9-43a8-a2b0-ef20ddfc3770",
@@ -2458,7 +2458,7 @@
     "actor": "Roger Lloyd-Pack",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/BartemiusCrouchSenior.jpg"
   },
   {
     "id": "d9294c96-bd7d-45d0-95e2-deaf71e09945",
