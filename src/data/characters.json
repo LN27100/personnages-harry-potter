@@ -1225,7 +1225,7 @@
     "actor": "Julie Walters",
     "alternate_actors": [],
     "alive": true,
-    "image": "public/images/Molly-Weasley.jpg"
+    "image": "public/images/molly-weasley.jpeg"
   },
   {
     "id": "28741184-263c-4000-b011-ca7c60466ef4",
@@ -2484,7 +2484,7 @@
     "actor": "Jeff Rawle",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/AmosDiggory.png"
   },
   {
     "id": "b7b18aa1-b5a0-4083-8142-cb3655bc2849",
@@ -2510,7 +2510,7 @@
     "actor": "Stanislav Ianevski",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/Victor-Krum.jpg"
   },
   {
     "id": "166ba5e0-ad04-4c7e-9850-6a21aede93c2",
@@ -2538,7 +2538,7 @@
     "actor": "Helen McCrory",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/NarcissaMalfoy.jpg"
   },
   {
     "id": "99d3ce6b-6a45-495a-a7c6-132203697d45",
@@ -2566,7 +2566,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/AuroraSinistra.png"
   },
   {
     "id": "41ebe856-f0f4-4c77-8795-4735d3a87f3d",
@@ -2595,7 +2595,7 @@
     "actor": "Brendan Gleeson",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/AlastorMoody.png"
   },
   {
     "id": "b4dbc2d2-afde-40ec-a622-b1ffa6aaca4d",
@@ -2625,7 +2625,7 @@
       "Ian Whyte"
     ],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/OlympeMaxime.jpg"
   },
   {
     "id": "72239274-a060-4fd5-bff2-7d4a01d31969",
@@ -2651,7 +2651,7 @@
     "actor": "Predrag Bjelac",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/IgorKarkaroff.jpg"
   },
   {
     "id": "f1beae08-3bec-4978-89e9-4ecda4ec7514",
@@ -2677,7 +2677,7 @@
     "actor": "Clémence Poésy",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/fleurDelacour.png"
   },
   {
     "id": "d254b20b-37a6-4468-bec9-6069754edaf2",
@@ -2705,7 +2705,7 @@
     "actor": "Rade Šerbedžija",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MykewGregorovitch.png"
   },
   {
     "id": "2844e38c-ded3-47e7-8de2-381d1e3581fc",
@@ -2731,7 +2731,7 @@
     "actor": "Miranda Richardson",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/RitaSkeeter.jpg"
   },
   {
     "id": "b48c5b8a-4066-4c24-ba26-7677f5ed2b6f",
@@ -2759,7 +2759,7 @@
     "actor": "Apple Brook",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/WilhelminaGrubbly-Plank.png"
   },
   {
     "id": "6a7090ae-b6ab-49a0-bd19-e24acb219426",
@@ -2785,7 +2785,7 @@
     "actor": "Tav MacDougall",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/Travers.png"
   },
   {
     "id": "dd3b2fbe-e9f2-4069-b881-9c31040ed9ae",
@@ -2811,7 +2811,7 @@
     "actor": "Richard Trinder",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/AugustusRookwood.png"
   },
   {
     "id": "d0d1b648-4e97-4fd0-9045-b721b6ef18d4",
@@ -2837,7 +2837,7 @@
     "actor": "James Payton",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/FrankLongdubas.jpg"
   },
   {
     "id": "27a51041-06a0-4f86-adb1-983ebfac708a",
@@ -2863,7 +2863,7 @@
     "actor": "Lisa Wood",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/AliceLondubat.png"
   },
   {
     "id": "d1d4f6bb-be3c-4bf7-8f6b-824f4e3fa255",
@@ -2889,7 +2889,7 @@
     "actor": "Jessica Hynes",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/MafaldaHopkirk.jpg"
   },
   {
     "id": "99370b33-d5a7-465b-91b1-55ef2a40182b",
@@ -2918,7 +2918,7 @@
     "actor": "Natalia Tena",
     "alternate_actors": [],
     "alive": false,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/NymphadoraTonks.png"
   },
   {
     "id": "1bb1f2d3-a22d-4f88-b26b-75e18a805ae8",
@@ -2944,7 +2944,7 @@
     "actor": "Peter Cartwright",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/ElphiasDoge.png"
   },
   {
     "id": "9a2979bd-0325-4316-bc71-ec4cfe673dca",
@@ -2970,7 +2970,7 @@
     "actor": "David Brett",
     "alternate_actors": [],
     "alive": true,
-    "image": "https://ik.imagekit.io/hpapi/"
+    "image": "public/images/DedalusDiggle.jpg"
   },
   {
     "id": "214bcbd0-a50a-42be-a25a-22f6eac5b8db",
@@ -2998,7 +2998,7 @@
     "actor": "Tom Moorcroft",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/RegulusBlack.jpg"
   },
   {
     "id": "94c993f6-a443-4408-b908-6e78e223e8ac",
@@ -3026,7 +3026,7 @@
       "Ciarán Hinds"
     ],
     "alive": true,
-    "image": ""
+    "image": "public/images/AberforthDumbledore.png"
   },
   {
     "id": "cb263aed-289b-43ad-8647-db54b8a5fc92",
@@ -3052,7 +3052,7 @@
     "actor": "Ryan Nelson",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/Michael-Corner.jpg"
   },
   {
     "id": "ab86f41a-3eeb-4586-95d8-b59fbdfc6bb7",
@@ -3078,7 +3078,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/golgomath.png"
   },
   {
     "id": "b45f28ff-29de-4149-8380-739db0e6855a",
@@ -3106,7 +3106,7 @@
     "actor": "Sam Beazley",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/ProfessorEverard.png"
   },
   {
     "id": "7d87a1aa-ea29-4ddd-8831-67113735b470",
@@ -3132,7 +3132,7 @@
     "actor": "Richard Leaf",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/JohnDawlish.png"
   },
   {
     "id": "b91bfd22-05cd-4209-970c-dc56c463e9df",
@@ -3160,7 +3160,7 @@
       "William Todd-Jones"
     ],
     "alive": true,
-    "image": ""
+    "image": "public/images/Grawp.jpg"
   },
   {
     "id": "2859f35c-8c47-4a8e-8649-61499a9352df",
@@ -3186,7 +3186,7 @@
     "actor": "Bill Nighy",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/RufusScrimgeour.jpg"
   },
   {
     "id": "fed82306-e03c-48ed-b3f5-06de7af38bc8",
@@ -3212,7 +3212,7 @@
     "actor": "Peter Mullan",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/CorbanYaxley.png"
   },
   {
     "id": "f3c96d16-e0de-4417-9052-5259e6a8e781",
@@ -3238,7 +3238,7 @@
     "actor": "Dave Legeno",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/FenrirGreyback.png"
   },
   {
     "id": "341e65d4-6917-48d7-80b2-1f9af607e95a",
@@ -3264,7 +3264,7 @@
     "actor": "Freddie Stroma",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/CormacMcLaggen.png"
   },
   {
     "id": "3a0fe4df-2e40-4541-8d7f-13586f0b9294",
@@ -3292,7 +3292,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/TomRiddleSenior.jpg"
   },
   {
     "id": "a4cbbe42-e30c-44b6-81c2-4690900a9a91",
@@ -3318,7 +3318,7 @@
     "actor": "Isabella Laughland",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/Leanne.jpg"
   },
   {
     "id": "39c01cd4-c599-4eb2-86be-86c3b5e38aee",
@@ -3344,7 +3344,7 @@
     "actor": "Amelda Brown",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/MrsCole.png"
   },
   {
     "id": "c86421d3-d5a1-4ab3-a980-1ba6bca5e572",
@@ -3370,7 +3370,7 @@
     "actor": "Charlie Bennison",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/Sangwini.png"
   },
   {
     "id": "88c30ceb-c607-49bc-b6c9-85365aee9e8c",
@@ -3396,7 +3396,7 @@
     "actor": "Suzie Toase",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/AlectoCarrow.jpeg"
   },
   {
     "id": "81ff4efd-b2e3-45db-8be8-08a5bc4f195a",
@@ -3422,7 +3422,7 @@
     "actor": "Guy Henry",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/PiusThicknesse.jpeg"
   },
   {
     "id": "61d78dce-890b-4f02-844f-b41d66553802",
@@ -3448,7 +3448,7 @@
     "actor": "Carolyn Pickles",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/CharityBurbage.JPG"
   },
   {
     "id": "a3cf6943-d402-41d4-b98e-3c4a444b828d",
@@ -3474,7 +3474,7 @@
     "actor": "Hebe Beardsall",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/ArianaDumbledore.png"
   },
   {
     "id": "d1e8ddf1-cfc7-404a-bffe-f4ac6c656ead",
@@ -3500,7 +3500,7 @@
     "actor": "Rhys Ifans",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/XenophiliusLovegood.JPG"
   },
   {
     "id": "f7457448-8382-4e5e-b72a-0044fc6f8958",
@@ -3528,7 +3528,7 @@
     "actor": "Matyelok Gibbs",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/Muriel.jpg"
   },
   {
     "id": "753ffe5f-19a8-41c9-b264-289766c8a4be",
@@ -3554,7 +3554,7 @@
     "actor": "Rod Hunt",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/ThorfinnRowle.jpg"
   },
   {
     "id": "d4eee96d-c53f-4e6f-8a95-c97d42343833",
@@ -3582,7 +3582,7 @@
     "actor": "Steffan Rhodri",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/ReginaldCattermole.JPG"
   },
   {
     "id": "22ed3c3e-c30c-4e79-a93d-fdfe470c8090",
@@ -3608,33 +3608,7 @@
     "actor": "David O'Hara",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
-  },
-  {
-    "id": "22ed3c3e-c30c-4e79-a93d-fdfe470c8091",
-    "name": "Albert Runcorn",
-    "alternate_names": [],
-    "species": "human",
-    "gender": "female",
-    "house": "",
-    "dateOfBirth": null,
-    "yearOfBirth": null,
-    "wizard": true,
-    "ancestry": "",
-    "eyeColour": "",
-    "hairColour": "blonde",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": null
-    },
-    "patronus": "",
-    "hogwartsStudent": false,
-    "hogwartsStaff": false,
-    "actor": "",
-    "alternate_actors": [],
-    "alive": true,
-    "image": ""
+    "image": "public/images/AlbertRuncorn.JPG"
   },
   {
     "id": "e96dc731-5217-4c83-b173-248e1c70b5e7",
@@ -3662,7 +3636,7 @@
     "actor": "Kate Fleetwood",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/MaryElizabethCattermole.JPG"
   },
   {
     "id": "1d6d87f8-6561-4e27-b77d-247067d3a7cc",
@@ -3688,7 +3662,7 @@
     "actor": "Nick Moran",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/Scabior.jpeg"
   },
   {
     "id": "b3c7de0a-fc23-4dd5-94d2-27e906c45fb7",
@@ -3716,7 +3690,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": false,
-    "image": ""
+    "image": "public/images/Ragnuk.JPG"
   },
   {
     "id": "a2c4fbb5-af04-45a4-9a1e-b39f9bb479c8",
@@ -3742,7 +3716,7 @@
     "actor": "Jon Key",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/bogrod.jpeg"
   },
   {
     "id": "2d9fd582-0be6-4f11-98f5-3358ad14b973",
@@ -3772,33 +3746,7 @@
       "Kelly Macdonald"
     ],
     "alive": false,
-    "image": ""
-  },
-  {
-    "id": "2550709a-d94b-4794-bb5f-a8d6ba546011",
-    "name": "Dexter Fortescue",
-    "alternate_names": [],
-    "species": "human",
-    "gender": "male",
-    "house": "",
-    "dateOfBirth": null,
-    "yearOfBirth": null,
-    "wizard": true,
-    "ancestry": "",
-    "eyeColour": "",
-    "hairColour": "",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": null
-    },
-    "patronus": "",
-    "hogwartsStudent": false,
-    "hogwartsStaff": false,
-    "actor": "",
-    "alternate_actors": [],
-    "alive": false,
-    "image": ""
+    "image": "public/images/TheGreyLady.JPG"
   },
   {
     "id": "6025d951-2638-4827-baff-aa5db5017a4a",
@@ -3826,7 +3774,7 @@
     "actor": "Daphne de Beistegui",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/LilyLunaPotter.jpg"
   },
   {
     "id": "9c8ce8c7-ae0a-4646-920f-09c071862f10",
@@ -3854,7 +3802,7 @@
     "actor": "Will Dunn",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/JamesSiriusPotter.JPG"
   },
   {
     "id": "dcdc063e-cf3e-48fc-b777-65922e899b38",
@@ -3882,7 +3830,7 @@
     "actor": "Arthur Bowen",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/albus-severus-potter.jpg"
   },
   {
     "id": "e4653b01-76a5-4769-a6a2-1f2efaf89cbb",
@@ -3908,7 +3856,7 @@
     "actor": "Helena Barlow",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/RoseWeasley.JPG"
   },
   {
     "id": "2b203c7e-7b3d-4f27-8b3c-11473904da73",
@@ -3934,7 +3882,7 @@
     "actor": "Ryan Turner",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/HugoWeasley.JPG"
   },
   {
     "id": "7f2f6207-8998-4f98-92c2-8d02898a82eb",
@@ -3962,7 +3910,7 @@
     "actor": "Bertie Gilbert",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/ScorpiusHyperionMalfoy.JPG"
   },
   {
     "id": "57fe29d4-312a-4711-bd9a-c320253d9177",
@@ -3988,7 +3936,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/victoireWeasley.jpeg"
   },
   {
     "id": "57fe29d4-312a-4711-bd9a-c320253d9176",
@@ -4014,7 +3962,7 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/louisWeasley.jpeg"
   },
   {
     "id": "57fe29d4-312a-4711-bd9a-c320253d9178",
@@ -4040,6 +3988,6 @@
     "actor": "",
     "alternate_actors": [],
     "alive": true,
-    "image": ""
+    "image": "public/images/dominique_weasley.jpg"
   }
 ]
