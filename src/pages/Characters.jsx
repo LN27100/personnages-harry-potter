@@ -17,6 +17,14 @@ function Characters() {
           if (foundCharacter && !character.image) {
             character.image = foundCharacter.image;
           }
+
+          // Vérifier si la date d'anniversaire est différente
+          if (
+            foundCharacter &&
+            foundCharacter.dateOfBirth !== character.dateOfBirth
+          ) {
+            character.dateOfBirth = foundCharacter.dateOfBirth;
+          }
           return character;
         });
         setCharacters(updatedCharacters);
