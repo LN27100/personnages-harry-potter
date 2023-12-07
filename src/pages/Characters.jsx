@@ -10,23 +10,28 @@ function Characters() {
     fetch('https://hp-api.onrender.com/api/characters')
       .then(response => response.json())
       .then(data => {
-        const updatedCharacters = data.map(character => {
+        const updatedCharacters = data.map(apiCharacter => {
           const foundCharacter = charactersData.find(
-            char => char.name === character.name
+            char => char.name === apiCharacter.name
           );
-          if (foundCharacter && !character.image) {
-            character.image = foundCharacter.image;
+          // Si le personnage est trouvé dans les données locales
+          if (foundCharacter) {
+            // Mettre à jour les détails du personnage
+            const updatedCharacter = {
+              ...foundCharacter,
+              // Vérifier si l'image est disponible dans l'API
+              image: apiCharacter.image || foundCharacter.image,
+              // Utiliser la date d'anniversaire de character.json si différente de l'API
+              dateOfBirth:
+                apiCharacter.dateOfBirth !== foundCharacter.dateOfBirth
+                  ? foundCharacter.dateOfBirth
+                  : apiCharacter.dateOfBirth,
+            };
+            return updatedCharacter;
           }
+          return null; // Retourner null pour les personnages non trouvés localement
+        }).filter(Boolean); // Filtrer les personnages non null (qui ont été trouvés localement)
 
-          // Vérifier si la date d'anniversaire est différente
-          if (
-            foundCharacter &&
-            foundCharacter.dateOfBirth !== character.dateOfBirth
-          ) {
-            character.dateOfBirth = foundCharacter.dateOfBirth;
-          }
-          return character;
-        });
         setCharacters(updatedCharacters);
       })
       .catch(error => {
