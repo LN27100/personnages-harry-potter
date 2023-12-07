@@ -7,8 +7,25 @@ function Characters() {
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
-    // Mettre à jour l'état avec les données importées
-    setCharacters(charactersData);
+    fetch('https://hp-api.onrender.com/api/characters')
+      .then(response => response.json())
+      .then(data => {
+        const updatedCharacters = data.map(character => {
+          const foundCharacter = charactersData.find(
+            char => char.name === character.name
+          );
+          if (foundCharacter && !character.image) {
+            character.image = foundCharacter.image;
+          }
+          return character;
+        });
+        setCharacters(updatedCharacters);
+      })
+      .catch(error => {
+        // En cas d'erreur, utilisez les données locales
+        console.error('Error fetching data:', error);
+        setCharacters(charactersData);
+      });
   }, []);
 
   const defaultImage = "./public/images/carte-du-maraudeur.jpg";
